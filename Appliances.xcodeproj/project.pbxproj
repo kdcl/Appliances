@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184D104714C1568200D77434 /* Appliance.m in Sources */ = {isa = PBXBuildFile; fileRef = 184D104614C1568200D77434 /* Appliance.m */; };
 		18C5A0F714C1449100E75196 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C5A0F614C1449100E75196 /* Foundation.framework */; };
 		18C5A0FA14C1449100E75196 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5A0F914C1449100E75196 /* main.m */; };
 		18C5A0FE14C1449100E75196 /* Appliances.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18C5A0FD14C1449100E75196 /* Appliances.1 */; };
@@ -26,10 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		184D104514C1568200D77434 /* Appliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appliance.h; sourceTree = "<group>"; };
+		184D104614C1568200D77434 /* Appliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appliance.m; sourceTree = "<group>"; };
 		18C5A0F214C1449100E75196 /* Appliances */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Appliances; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C5A0F614C1449100E75196 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18C5A0F914C1449100E75196 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18C5A0FC14C1449100E75196 /* Appliances-Prefix.pch */ = {isa = PBXFileReference; path = "Appliances-Prefix.pch"; sourceTree = "<group>"; };
+		18C5A0FC14C1449100E75196 /* Appliances-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Appliances-Prefix.pch"; sourceTree = "<group>"; };
 		18C5A0FD14C1449100E75196 /* Appliances.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Appliances.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				18C5A0F914C1449100E75196 /* main.m */,
+				184D104514C1568200D77434 /* Appliance.h */,
+				184D104614C1568200D77434 /* Appliance.m */,
 				18C5A0FD14C1449100E75196 /* Appliances.1 */,
 				18C5A0FB14C1449100E75196 /* Supporting Files */,
 			);
@@ -136,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C5A0FA14C1449100E75196 /* main.m in Sources */,
+				184D104714C1568200D77434 /* Appliance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +230,7 @@
 				18C5A10314C1449100E75196 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
