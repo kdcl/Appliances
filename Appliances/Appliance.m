@@ -10,13 +10,16 @@
 
 @implementation Appliance
 
+@synthesize productName, voltage;
 - (id)init
 {
+    //Call the NSObject's init method
     self = [super init];
-    if (self) {
-        // Initialization code here.
-    }
     
+    //Give voltage a starting value
+    voltage = 20;
+    
+    //Return a pointer to the new object
     return self;
 }
 
