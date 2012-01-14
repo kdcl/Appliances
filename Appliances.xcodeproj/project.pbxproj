@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		184D104714C1568200D77434 /* Appliance.m in Sources */ = {isa = PBXBuildFile; fileRef = 184D104614C1568200D77434 /* Appliance.m */; };
+		184D105314C16CDD00D77434 /* OwendAppliance.m in Sources */ = {isa = PBXBuildFile; fileRef = 184D105214C16CDD00D77434 /* OwendAppliance.m */; };
 		18C5A0F714C1449100E75196 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C5A0F614C1449100E75196 /* Foundation.framework */; };
 		18C5A0FA14C1449100E75196 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5A0F914C1449100E75196 /* main.m */; };
 		18C5A0FE14C1449100E75196 /* Appliances.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18C5A0FD14C1449100E75196 /* Appliances.1 */; };
@@ -29,6 +30,8 @@
 /* Begin PBXFileReference section */
 		184D104514C1568200D77434 /* Appliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appliance.h; sourceTree = "<group>"; };
 		184D104614C1568200D77434 /* Appliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appliance.m; sourceTree = "<group>"; };
+		184D105114C16CDD00D77434 /* OwendAppliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwendAppliance.h; sourceTree = "<group>"; };
+		184D105214C16CDD00D77434 /* OwendAppliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwendAppliance.m; sourceTree = "<group>"; };
 		18C5A0F214C1449100E75196 /* Appliances */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Appliances; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C5A0F614C1449100E75196 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18C5A0F914C1449100E75196 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,6 +54,8 @@
 		18C5A0E714C1449100E75196 = {
 			isa = PBXGroup;
 			children = (
+				184D105114C16CDD00D77434 /* OwendAppliance.h */,
+				184D105214C16CDD00D77434 /* OwendAppliance.m */,
 				18C5A0F814C1449100E75196 /* Appliances */,
 				18C5A0F514C1449100E75196 /* Frameworks */,
 				18C5A0F314C1449100E75196 /* Products */,
@@ -142,6 +147,7 @@
 			files = (
 				18C5A0FA14C1449100E75196 /* main.m in Sources */,
 				184D104714C1568200D77434 /* Appliance.m in Sources */,
+				184D105314C16CDD00D77434 /* OwendAppliance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

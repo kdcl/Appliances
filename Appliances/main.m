@@ -7,15 +7,23 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Appliance.h"
 
 int main (int argc, const char * argv[])
 {
 
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
-    // insert code here...
-    NSLog(@"Hello, World!");
-
+    Appliance *a = [[Appliance alloc] init ];
+    NSLog(@"a is %@",a);
+    [a setValue:@"Wash Machine" forKey:@"productName"];
+    //[a setProductName:@"Washing Machine"];
+    [a setValue:[NSNumber numberWithInt:240] forKey:@"voltage"];
+    NSLog(@"a is %@",a);
+    NSLog(@"the Product Name : %@",[a valueForKey:@"productName"]);
+    NSLog(@"the Voltage : %@",[a valueForKey:@"voltage"]);
+    
+    
     [pool drain];
     return 0;
 }

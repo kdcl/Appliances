@@ -10,17 +10,29 @@
 
 @implementation Appliance
 
-@synthesize productName, voltage;
+@synthesize voltage;
+
 - (id)init
 {
-    //Call the NSObject's init method
-    self = [super init];
+    return [self initWithProductName:@"Unknown"];
+}
+- (id)initWithProductName:(NSString *)pn
+{
+    productName = [pn copy];
+        
     
     //Give voltage a starting value
-    voltage = 20;
-    
+    [self setVoltage:120];
     //Return a pointer to the new object
     return self;
+      
 }
+
+- (NSString *)description
+{
+    return [NSString stringWithFormat:@"<%@:   %d  volts>",productName,voltage];
+}
+
+
 
 @end
